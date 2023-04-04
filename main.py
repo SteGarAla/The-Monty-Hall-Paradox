@@ -12,8 +12,9 @@ def monty_hall(switch):
     random.shuffle(prize_behind_doors)
 
     # after shuffling the list of prizes, we will assign a prize to each door
-    for index, prize in enumerate(prize_behind_doors):
-        doors[f"door{index + 1}"] = prize
+    for i in range(3):
+        doors[f"door{i + 1}"] = prize_behind_doors[i]
+
 
     # assigning random door to contestant
     # to use random we have to convert the dictionary to list, the list will only contain keys of the dictionary
