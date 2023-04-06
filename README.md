@@ -16,5 +16,5 @@ BY: Steven Garcia-Alamilla
 
 
 
-Initially, I was correct in believing that the probability of winning was 33% (1/3), if you were to stay with your first choice and 50% (1/2) after the host were to reveal a door due to only 2 choices being avaible.
-I learned that the win rate is actually 1/3 if you were stay with your first choice and 2/3 if you switch to the other unopened door. This is because when the host's reveals a door with a goat this increase the probability of winning by switching doors (not 50/50). I will keep this in mind in the case im ever on a gameshow.
+Initially, I was correct in believing that the probability of winning was 33% (1/3), if you were to stay with your first choice and 50% (1/2) after the host were to reveal a door due to only 2 choices being available.
+I learned that the win rate is actually 1/3 if you were stay with your first choice and 2/3 if you switch to the other unopened door. This is because when the host's reveals a door with a goat this increase the probability of winning by switching doors (not 50/50). I will keep this in mind in the case I'm ever on a gameshow.
