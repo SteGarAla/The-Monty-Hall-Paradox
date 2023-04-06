@@ -1,5 +1,6 @@
-# The-Monty-Hall-Paradox
+# The Monty Hall Paradox
 The Monty Hall Paradox Written In Python.
+BY: Steven Garcia-Alamilla
 
 
 
