@@ -15,7 +15,6 @@ def monty_hall(switch):
     for i in range(3):
         doors[f"door{i + 1}"] = prize_behind_doors[i]
 
-
     # assigning random door to contestant
     # to use random we have to convert the dictionary to list, the list will only contain keys of the dictionary
     # this is equal to a string value since it will select a random key
@@ -46,19 +45,36 @@ def monty_hall(switch):
 
 
 def simulate(num_iterations):
+    print("Would you like to stay or switch doors?")
+    # if input is empty = False, non-empty = True
+    choice = bool(input())
+
     # counter that will keep track of wins
     wins = 0
     # loop that will run 'num_iterations' of times
     for i in range(num_iterations):
-        sol = monty_hall(True)
+        sol = monty_hall(choice)
         # counter for each time a game is won
         if sol:
             wins += 1
     # calculating win percentage
     percentage = (wins / num_iterations) * 100
-    # rounds win/loss to two decimal places
-    return round(percentage, 2)
+    # rounds win/loss to max three decimal places
+    if choice:
+        return f"Your win rate for {num_iterations} Trails is {round(percentage, 3)}%. (You decided to swap)\n"
+
+    return f"Your win rate for {num_iterations} Trails is {round(percentage, 3)}%.  (You decided to stay)\n"
 
 
 if __name__ == "__main__":
+
+    print("Welcome to the monty hall paradox simulation\n"
+          "STAY = Press \"Enter/Return\" \n"
+          "SWAP = Press any value then \"Enter/Return\"  \n")
+
+    print(simulate(10))
     print(simulate(100))
+    print(simulate(1000))
+    print(simulate(10000))
+    print(simulate(100000))
+    print(simulate(1000000))
