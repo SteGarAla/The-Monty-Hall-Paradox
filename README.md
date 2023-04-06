@@ -4,12 +4,13 @@ BY: Steven Garcia-Alamilla
 
 
 
-## Graph and Results
+## Graph
 
 <img width="1638" alt="Screenshot 2023-04-03 at 11 35 49 PM" src="https://user-images.githubusercontent.com/89400338/229688061-f35da193-d099-44d1-89d8-e9b4898c0fa7.png">
 
-* 1000000 Test case not included in Graph *
+## Results
 <img width="1086" alt="Screenshot 2023-04-05 at 11 09 51 PM" src="https://user-images.githubusercontent.com/89400338/230270013-53cff1da-b36d-431e-940c-0369e281585f.png">
+* 1000000 Test case not included in Graph 
 
 
 ## Short Reaction
