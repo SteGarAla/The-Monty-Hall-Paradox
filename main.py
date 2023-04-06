@@ -59,11 +59,11 @@ def simulate(num_iterations):
             wins += 1
     # calculating win percentage
     percentage = (wins / num_iterations) * 100
-    # rounds win/loss to max three decimal places
+    # rounds win/loss to two decimal places
     if choice:
-        return f"Your win rate for {num_iterations} Trails is {round(percentage, 3)}%. (You decided to swap)\n"
+        return f"Your win rate for {num_iterations} Trails is {round(percentage, 2)}%. (You decided to swap)"
 
-    return f"Your win rate for {num_iterations} Trails is {round(percentage, 3)}%.  (You decided to stay)\n"
+    return f"Your win rate for {num_iterations} Trails is {round(percentage, 2)}%.  (You decided to stay)"
 
 
 if __name__ == "__main__":
@@ -72,6 +72,7 @@ if __name__ == "__main__":
           "STAY = Press \"Enter/Return\" \n"
           "SWAP = Press any value then \"Enter/Return\"  \n")
 
+    # TEST CASES
     print(simulate(10))
     print(simulate(100))
     print(simulate(1000))
