@@ -9,7 +9,7 @@ BY: Steven Garcia-Alamilla
 <img width="1638" alt="Screenshot 2023-04-03 at 11 35 49 PM" src="https://user-images.githubusercontent.com/89400338/229688061-f35da193-d099-44d1-89d8-e9b4898c0fa7.png">
 
 ## Results
-<img width="1086" alt="Screenshot 2023-04-05 at 11 09 51 PM" src="https://user-images.githubusercontent.com/89400338/230270013-53cff1da-b36d-431e-940c-0369e281585f.png">
+<img width="562" alt="Screenshot 2023-04-15 at 10 55 32 AM" src="https://user-images.githubusercontent.com/89400338/232235492-f68028d4-2fb6-4ae3-827e-e391ea0221f4.png">
 * 1000000 Test case not included in Graph 
 
 
